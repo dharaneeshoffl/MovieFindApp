@@ -1,0 +1,164 @@
+body{
+    background-color: black;
+}
+
+.hi{
+    height: 30px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+    margin-left: 600px;
+    background-color: rgb(243, 200, 11);
+    border: dotted;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+
+.Input{
+    
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 452px;
+    background-color: rgb(222, 218, 197);
+    border: none;
+    /* outline: none; */
+    color: black;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    position: absolute;
+    font-size: 20px;
+}
+
+
+
+
+
+.Button{
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:16px;
+        position: relative;
+        left: 988px;
+        top:3px;
+        border: none;
+        outline: none;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        background-color: rgb(230, 8, 8);
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+.Content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 45px;
+    gap: 25px;
+    margin-top: 40px;
+    /* background-color: black; */
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    
+
+}
+
+.CA{
+    background-color: black;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.Para{
+    width: 300px;
+    text-transform: capitalize;
+    color: rgb(248, 184, 6);
+    text-align: center;
+    
+    
+}
+
+.Img{
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    
+}
+
+.CA:hover{
+    transform: scale(1.11);
+    transition: 0.3s;
+    -webkit-transform: scale(1.11);
+    -moz-transform: scale(1.11);
+    -ms-transform: scale(1.11);
+    -o-transform: scale(1.11);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+
+.loader {
+    margin-left: 730px;
+    margin-top: 800px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position: relative;
+    transform:rotate(45deg);
+    background: #eeebeb47;
+  }
+  .loader::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    inset: 0px;
+    border-radius: 50%;
+    border:24px solid #7e7c7bab;
+    animation: prixClipFix 2s infinite linear;
+  }
+
+  @keyframes prixClipFix {
+      0%   {clip-path:polygon(50% 50%,0 0,0 0,0 0,0 0,0 0)}
+      25%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 0,100% 0,100% 0)}
+      50%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,100% 100%,100% 100%)}
+      75%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0 100%,0 100%)}
+      100% {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0 100%,0 0)}
+  }
+  
+
